@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Get the following Beans definition from below 
+
+https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html
+-->
+ 
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="vehicle" class="com.phone.appName.Bike"></bean>
+</beans>
