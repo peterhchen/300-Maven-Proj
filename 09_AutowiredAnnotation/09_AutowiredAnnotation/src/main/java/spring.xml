@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+https://docs.spring.io/spring/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html
+-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> 
+        
+  <!--  Package name: com.phone.appName -->
+  <context:component-scan base-package="com.phone.appName"></context:component-scan>
+  <!-- bean definitions here -->
+  <bean id="tire" class="com.phone.appName.Tire">
+		<property name="brand" value="Bridgestone"></property>
+	<constructor-arg value="Sears"></constructor-arg>
+  </bean>
+
+</beans>
